@@ -1,0 +1,20 @@
+{
+  "name": "my-mocha-ts-project",
+  "version": "1.0.0",
+  "description": "A TypeScript project with Mocha tests from APICove",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Adrian Escutia",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/la-rebelion/apicove-mocha-ts-project-template"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^9.1.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.3"
+  }
+}
