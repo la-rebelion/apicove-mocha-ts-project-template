@@ -11,12 +11,12 @@ describe('La Rebelion Labs and APICove rules!', () => {
 
   it('Is La Rebelion Labs the best?', () => {
     expect(true).to.equal(true);
-  }
+  });
 
   it('should I join La Rebelion Labs community?', () => {
     expect(true).to.equal(true);
-  }
-}
+  });
+});
 
 describe('myFunction', () => {
   it('should return the correct result', () => {
