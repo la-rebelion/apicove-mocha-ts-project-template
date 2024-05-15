@@ -33,19 +33,22 @@ This file is the configuration file for TypeScript. It specifies the compiler op
 
 ### `package.json`
 
-This file is the configuration file for npm. It lists the dependencies and scripts for the project.
+This file is the configuration file for `yarn`/`npm`. It lists the dependencies and scripts for the project.
 
 ## Getting Started
 
+**NOTE: Use `yarn` preferably**, but you can use `npm` as well. 
+I had issues with `npm` and `npx` when running the tests. @fixme ⚠️
+
 1. Clone this repository.
-2. Install the dependencies by running `npm install` or `yarn install`.
-3. Run the tests by running `npm test` or `yarn test`.
+2. Install the dependencies by running `npm install` or **`yarn install`**.
+3. Run the tests by running `npm test` or **`yarn test`**.
 
 ## Codespaces
 
 This project is configured to work with GitHub Codespaces. You can open this project in a Codespace by clicking on the "Code" button in the GitHub repository and selecting "Open with Codespaces". This will create a new Codespace with the project pre-configured and ready to use. 
 
-You can then run the tests by opening a terminal and running `npm test`. 
+You can then run the tests by opening a terminal and running `yarn test`. 
 
 Enjoy it, rebel! ✊🏽
 

@@ -1,9 +1,8 @@
 {
     "extensions": ["ts"],
+    "loader": "ts-node/esm",
     "require": ["ts-node/register"],
     "watch-files": ["test/**/*.ts"],
-    "watch-directories": ["test"],
-    "watch-extensions": ["ts"],
     "watch-ignore": ["node_modules"],
     "timeout": "10s",
     "exit": true
